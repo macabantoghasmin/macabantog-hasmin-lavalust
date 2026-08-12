@@ -756,6 +756,9 @@ defined('PREVENT_DIRECT_ACCESS') OR exit('No direct script access allowed');
             <a href="https://opensource.org/licenses/MIT" target="_blank">MIT License</a>
         </div>
     </div>
+    <div style="text-align: center; margin-top: 10px; font-size: 14px; color: #888;">
+        Macabantog, Hasmin 3F6
+    </div>
 </footer>
 
 </body>
