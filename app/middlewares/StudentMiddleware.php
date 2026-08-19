@@ -7,7 +7,7 @@ class StudentMiddleware
     public function handle()
     {
         if (!isset($_SESSION['student_access']) || $_SESSION['student_access'] !== true) {
-            header('Location: /LavaLust-dev-v4/student');
+            header('Location: /student');
             exit;
         }
     }
