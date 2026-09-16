@@ -1,6 +1,5 @@
 
 <?php
-
 defined('PREVENT_DIRECT_ACCESS') OR exit('No direct script access allowed');
 
 class AuthController extends Controller
@@ -23,7 +22,6 @@ class AuthController extends Controller
             $username = $this->request->post('username');
             $password = $this->request->post('password');
 
-            // Find user in database
             $user = $this->db
                 ->table('users')
                 ->where('username', $username)
@@ -38,7 +36,6 @@ class AuthController extends Controller
                 ]);
 
                 redirect('/products');
-
                 return;
             }
 
